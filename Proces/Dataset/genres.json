@@ -1,0 +1,119 @@
+{
+  "name": "Categories",
+  "children": [
+    {
+     "name": "Undefined",
+     "children": [
+          {"name": "Dub", "size": 200},
+          {"name": "Freestyle House", "size": 200},
+          {"name": "Progressive House", "size": 200},
+          {"name": "Synthron", "size": 200},
+          {"name": "Brit House", "size": 200},
+          {"name": "Dark House", "size": 200},
+          {"name": "Tribal House", "size": 200},
+          {"name": "Electro House", "size": 200},
+          {"name": "Techno Dance", "size": 200},
+          {"name": "Acid House", "size": 200},
+          {"name": "Hard House", "size": 200},
+          {"name": "Speed Garage", "size": 200},
+          {"name": "2-Step Garage", "size": 200}      
+      ]
+    },
+    {
+      "name": "Techno",
+      "children": [
+          {"name": "Classic Techno", "size": 200},
+          {"name": "Tech House", "size": 200},
+          {"name": "Acid Techno", "size": 200},
+          {"name": "Hard Acid", "size": 200},
+          {"name": "Microhouse", "size": 200},
+          {"name": "Experimental Techno", "size": 200},
+          {"name": "Industrial Techno", "size": 200},
+          {"name": "Euro Techno", "size": 200},
+          {"name": "Rave", "size": 200},
+          {"name": "Hard Techno", "size": 200},
+          {"name": "German Techno", "size": 200},
+          {"name": "JTEK", "size": 200},
+          {"name": "Swedish Techno", "size": 200},
+          {"name": "Latin Techno", "size": 200},
+          {"name": "Italian Techno", "size": 200},
+          {"name": "VGM", "size": 200},
+          {"name": "Casiocore", "size": 200},
+          {"name": "Detroit Techno (1st wave", "size": 200},
+          {"name": "Detroit Techno (2nd wave", "size": 200},
+          {"name": "Detroit Techno (3rd wave", "size": 200},
+          {"name": "Minimal", "size": 200}
+      ]
+    },
+    {
+     "name": "Eurodisco",
+     "children": [
+          {"name": "Disco", "size": 200},
+          {"name": "New Wave", "size": 200},
+          {"name": "Italo Disco", "size": 200},
+          {"name": "Synthpop", "size": 200},
+          {"name": "Hi NRG", "size": 200}
+      ]
+    },
+    {
+     "name": "Chicago",
+     "children": [
+          {"name": "Garage House", "size": 200},
+          {"name": "Acid House", "size": 200},
+          {"name": "Classic House", "size": 200},
+          {"name": "Hip House", "size": 200}
+      ]
+    },
+    {
+     "name": "Europop",
+     "children": [
+          {"name": "Techno Dance", "size": 200},
+          {"name": "Eurodance", "size": 200},
+          {"name": "Happy House", "size": 200},
+          {"name": "Nu Italo Disco", "size": 200},
+          {"name": "Vocal House", "size": 200},
+          {"name": "Eurobeat", "size": 200},
+          {"name": "JPOP", "size": 200},
+          {"name": "Anthem House", "size": 200},
+          {"name": "Epic House", "size": 200},
+          {"name": "Epic Trance", "size": 200}  
+      ]
+    },
+    {
+     "name": "Detroit",
+     "children": [
+          {"name": "Detroit House", "size": 200},
+          {"name": "Detroit Techno", "size": 200}
+      ]
+    },
+    {
+     "name": "Funk",
+     "children": [
+          {"name": "Deep House", "size": 200},
+          {"name": "Funky House", "size": 200},
+          {"name": "Latin House", "size": 200},
+          {"name": "Dicou House", "size": 200},
+          {"name": "French House", "size": 200}
+      ]
+    },
+    {
+     "name": "Hard Dance",
+     "children": [
+          {"name": "NRG", "size": 200},
+          {"name": "Stupid House", "size": 200}
+      ]
+    },
+    {
+     "name": "Booty Bass",
+     "children": [
+          {"name": "Booty House", "size": 200},
+          {"name": "Dirty South Rap", "size": 200},
+          {"name": "Ghetto Tech", "size": 200}
+      ]
+    }                            
+  ]
+}
+
+
+
+
