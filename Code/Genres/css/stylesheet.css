@@ -1,0 +1,58 @@
+svg {
+  margin-top: 50px;
+}
+
+line {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.back {
+  cursor: pointer;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.x-axis path, .y-axis path, .x-axis line, .y-axis line {
+    fill: none;
+    stroke: black;
+    stroke-opacity: 0.1;
+}
+
+.x-axis, .y-axis text {
+    font-family: sans-serif;
+    font-opacity: 0.5;
+    font-size: 11px;
+}
+
+.artist text {
+    font-family: sans-serif;
+    font-size: 3  0px;
+}
+
+#introtext {
+  font-family: sans-serif;
+  text-align: justify;
+  opacity: 0.4;
+  margin-left: 25px;
+  margin-top: 45px;
+  position: absolute;
+  width: 275px;
+  height: 700px;
+}
+
+.navbar{
+  opacity: 0.5;
+  background-color: white;
+  border: none;
+  position: absolute;
+}
+
+

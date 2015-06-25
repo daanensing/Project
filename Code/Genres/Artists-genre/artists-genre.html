@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="get_key_with_callback.js"></script>
-    <script src="D3/d3.v3.min.js"></script>
-  	<link rel="stylesheet" href="stylesheet.css"/>
-  </head>
+    <head>
+        <meta charset="utf-8">
+        <title>Artists</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="js/get_key_with_callback.js"></script>
+        <script type="text/javascript" src="D3/d3.v3.min.js"></script>
+        <script type="text/javascript" src="js/arg-1.3.1.js"></script>
+      	<link rel="stylesheet" href="css/stylesheet.css"/>
+    </head>
 
 	<body>
 
-		<script src="main.js"></script>
+    <!-- Navigation -->
+    <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collection of nav links and other content for toggling -->
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="../../index.html">HOME</a></li>
+                    <li><a href="../genres.html">GENRES</a></li>
+                    <li><a href="artists-genre.html?genre=Disco">ARTISTS EXAMPLE PAGE</a></li>
+                </ul>         
+            </div>
+        </div>
+    </nav>
+
+    <div id="introtext">
+    THIS SCATTERPLOT SHOWS THE 30 TOP ARTISTS FOR THE SPECIFIED GENRE ACCORDING TO THE ECHO NEST DATABASE. THE POSITION OF AN ARTIST IN THIS SCATTERPLOT IS BASED ON BOTH ARTIST POPULARITY AND FAMILIARITY. THESE COEFFICIENTS ARE RETRIEVED FROM THE ECHO NEST AND CALCULATED BY MULTIPLE FACTORS LIKE NUMBER OF PLAYS, REVIEWS, BLOGS AND ALIKE. HOVERING OVER AN ARTIST SHOWS THE ARTISTS NAME AND SELECTING AN ARTIST PROVIDES RELATED INFORMATION (LINK TO THE LAST FM ARTIST PAGE, PICTURE, AND SMART RADIO MUSIC PLAYER.
+    <br><br>
+    WHEN SELECTING AN ARTIST, A NEW REQUEST TO THE ECHO NEST DATABASE IS MADE WHICH RETURNS 30 RELATED ARTISTS FOR THE SELECTED ARTIST. THESE ARTISTS ARE ALSO SORTED OUT BY POPULARITY AND FAMILIARITY. 
+    </div>
+
+    <div class="player"><iframe id="link" scrolling="no" frameborder="0" allowTransparency="true" width="320" height="300"></iframe></div>
+
+    <img id="artistpicture" src="http://www.white.nl/custom/img/slides/slide2/glow.png" width="300" height="300">
+
+	<script src="js/main.js"></script>
 
 	</body>
 

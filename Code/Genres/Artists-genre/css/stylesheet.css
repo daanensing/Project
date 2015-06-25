@@ -1,0 +1,55 @@
+svg {
+  margin-top: 50px;
+}
+
+circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+  cursor: pointer;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    stroke-opacity: 0.1;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.lastfmurl{
+	cursor: pointer;
+}
+
+#introtext {
+  font-family: sans-serif;
+  text-align: justify;
+  opacity: 0.4;
+  margin-left: 25px;
+  margin-top: 120px;
+  position: absolute;
+  width: 275px;
+  height: 700px;
+}
+
+#artistpicture{
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 130px;
+}
+
+.player{
+  position: absolute;
+  margin-top: 450px;
+}
+
+.navbar{
+  opacity: 0.5;  
+  background-color: white;
+  border: none;
+  position: absolute;  
+}
+

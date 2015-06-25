@@ -14,19 +14,15 @@ body {
 	text-align: justify;
 }
 
-#headertext{
-	text-align: left;
+.headertext{
 	opacity: 0.5;
 	font-family: sans-serif;
 }
 
-#text{
+.text{
 	opacity: 0.4;
 	font-family: sans-serif;
 }
 
-.vinyl{
-	opacity: 1;
-}
 
 
